@@ -1,0 +1,219 @@
+:root {
+  --main-font-color: #757575;
+  --title-font-color: #212121;
+  --logo-black-color: #000000;
+  --white-color: #ffffff;
+  --contacts-font-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --inactive-btn-color: #f5f4fa;
+}
+
+/* Загальні стилі */
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--main-font-color);
+  background-color: var(--white-color);
+}
+
+.title {
+  color: var(--title-font-color);
+}
+
+.header .nav-link,
+.header .nav-contact,
+.footer .address-geo,
+.footer .address-contact {
+  text-decoration: none;
+}
+
+.header .nav-list,
+.header .nav-contacts,
+.footer .address-list,
+.benefits-list,
+.doing-list,
+.team-list,
+.works-list,
+.works-filters {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  opacity: 0.75;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+/* Шапка */
+
+.header .logo {
+  color: var(--logo-black-color);
+}
+
+.header .nav-link,
+.header .nav-contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header .nav-link {
+  color: var(--title-font-color);
+}
+
+.header .active-link {
+  color: var(--accent-color);
+}
+
+.header .nav-contact {
+  color: inherit;
+}
+
+.header .nav-link:hover,
+.header .nav-contact:hover,
+.header .nav-link:focus,
+.header .nav-contact:focus {
+  color: var(--accent-color);
+}
+
+/* Хіро */
+
+.hero {
+  background-color: var(--footer-bg-color);
+}
+
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+/* Переваги */
+
+.benefits-list .benefits-name {
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Що ми робимо */
+
+.doing-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* Команда */
+
+.team-list .team-name,
+.team-list .team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-list .team-name {
+  font-weight: 500;
+}
+
+/* Роботи */
+
+.works-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: var(--title-font-color);
+  background-color: var(--inactive-btn-color);
+  border-color: transparent;
+
+  cursor: pointer;
+}
+
+.works-button:hover,
+.works-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.works-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* Підвал */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer .logo {
+  color: var(--white-color);
+}
+
+.address-list {
+  font-style: normal;
+}
+
+.address-geo {
+  color: var(--white-color);
+}
+
+.address-contact {
+  color: var(--contacts-font-color);
+}
+
+.address-geo:hover,
+.address-contact:hover,
+.address-geo:focus,
+.address-contact:focus {
+  color: var(--white-color);
+}
