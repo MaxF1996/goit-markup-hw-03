@@ -44,7 +44,7 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -54,6 +54,14 @@ body {
 
 .accent {
   color: var(--accent-color);
+}
+
+main .unvisible {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 /* Шапка */
@@ -73,16 +81,16 @@ body {
   color: var(--title-font-color);
 }
 
+.header .nav-contact {
+  color: inherit;
+}
+
 .header .active-link,
 .header .nav-link:hover,
 .header .nav-contact:hover,
 .header .nav-link:focus,
 .header .nav-contact:focus {
   color: var(--accent-color);
-}
-
-.header .nav-contact {
-  color: inherit;
 }
 
 /* Хіро */
@@ -102,7 +110,7 @@ body {
   color: var(--white-color);
 }
 
-.hero-button {
+.hero .hero-button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
