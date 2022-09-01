@@ -52,11 +52,6 @@ body {
   text-decoration: none;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  opacity: 0.75;
-}
-
 .accent {
   color: var(--accent-color);
 }
@@ -78,19 +73,16 @@ body {
   color: var(--title-font-color);
 }
 
-.header .active-link {
-  color: var(--accent-color);
-}
-
-.header .nav-contact {
-  color: inherit;
-}
-
+.header .active-link,
 .header .nav-link:hover,
 .header .nav-contact:hover,
 .header .nav-link:focus,
 .header .nav-contact:focus {
   color: var(--accent-color);
+}
+
+.header .nav-contact {
+  color: inherit;
 }
 
 /* Хіро */
@@ -121,6 +113,11 @@ body {
   background-color: var(--accent-color);
 
   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  opacity: 0.75;
 }
 
 /* Переваги */
@@ -203,14 +200,11 @@ body {
   font-style: normal;
 }
 
-.address-geo {
-  color: var(--white-color);
-}
-
 .address-contact {
   color: var(--contacts-font-color);
 }
 
+.address-geo,
 .address-geo:hover,
 .address-contact:hover,
 .address-geo:focus,
