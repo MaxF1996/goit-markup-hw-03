@@ -12,8 +12,8 @@
   --white-color: #ffffff;
   --contacts-font-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
-  --footer-bg-color: #2f303a;
-  --inactive-btn-color: #f5f4fa;
+  --main-dark-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
 }
 
 /* Загальні стилі */
@@ -103,7 +103,7 @@ body {
 /* Хіро */
 
 .hero {
-  background-color: var(--footer-bg-color);
+  background-color: var(--main-dark-color);
 }
 
 .hero .hero-title {
@@ -155,6 +155,14 @@ body {
 
 /* Команда */
 
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-member {
+  background-color: var(--white-color);
+}
+
 .team-list .team-name,
 .team-list .team-position {
   font-size: 16px;
@@ -177,7 +185,7 @@ body {
   text-align: center;
 
   color: var(--title-font-color);
-  background-color: var(--inactive-btn-color);
+  background-color: var(--secondary-bg-color);
   border-color: transparent;
 
   cursor: pointer;
@@ -204,7 +212,7 @@ body {
 /* Підвал */
 
 .footer {
-  background-color: var(--footer-bg-color);
+  background-color: var(--main-dark-color);
 }
 
 .footer .logo {
