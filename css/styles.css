@@ -98,7 +98,7 @@ main img {
   font-family: var(--logo-font-family);
   font-weight: 700;
   font-size: var(--logo-font-size);
-  line-height: 1.19;
+  line-height: 1.17;
   letter-spacing: var(--main-letter-spacing);
   text-decoration: none;
 }
@@ -417,7 +417,7 @@ main img {
 
 .footer {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 57px;
 
   background-color: var(--main-dark-color);
 }
@@ -437,7 +437,7 @@ main img {
 }
 
 .address-item:not(:first-child) {
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .address-geo,
