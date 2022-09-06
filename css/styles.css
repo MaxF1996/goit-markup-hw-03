@@ -384,6 +384,8 @@ main img {
 .works .works-list {
   margin-top: 50px;
 
+  text-align: left;
+
   display: inline-flex;
   flex-wrap: wrap;
   gap: 30px;
