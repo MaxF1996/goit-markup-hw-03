@@ -125,18 +125,25 @@ main img {
 .header .flex-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+nav.flex-container {
+  column-gap: 93px;
 }
 
 .header .logo {
   color: var(--logo-font-color);
 }
 
-.header .nav-item + .nav-item {
+/* .header .nav-item + .nav-item {
   margin-left: 50px;
-}
+} */
 
 .header .nav-list {
-  margin-left: 93px;
+  /* margin-left: 93px; */
+
+  column-gap: 50px;
 }
 
 .header .nav-link,
@@ -156,7 +163,8 @@ main img {
 }
 
 .header .nav-contacts {
-  margin-left: auto;
+  /* margin-left: auto; */
+  column-gap: 50px;
 }
 
 .header .nav-contact {
