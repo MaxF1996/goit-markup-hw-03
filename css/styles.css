@@ -135,11 +135,6 @@ main img {
   margin-left: 50px;
 }
 
-.nav-list .nav-item {
-  padding-top: 32px;
-  padding-bottom: 31px;
-}
-
 .header .nav-list {
   margin-left: 93px;
 }
@@ -154,6 +149,9 @@ main img {
 }
 
 .header .nav-link {
+  padding-top: 32px;
+  padding-bottom: 31px;
+
   color: var(--title-font-color);
 }
 
