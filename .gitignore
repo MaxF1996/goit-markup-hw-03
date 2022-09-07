@@ -1,6 +1,9 @@
 # Images original (without optimization)
 images-orig
 
+# Testing styles
+css/mstyles.css
+
 # Logs
 logs
 *.log
