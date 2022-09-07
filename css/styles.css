@@ -60,7 +60,6 @@ main img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  line-height: 0;
 }
 
 .container.big-container {
@@ -136,13 +135,7 @@ nav.flex-container {
   color: var(--logo-font-color);
 }
 
-/* .header .nav-item + .nav-item {
-  margin-left: 50px;
-} */
-
 .header .nav-list {
-  /* margin-left: 93px; */
-
   column-gap: 50px;
 }
 
@@ -163,7 +156,6 @@ nav.flex-container {
 }
 
 .header .nav-contacts {
-  /* margin-left: auto; */
   column-gap: 50px;
 }
 
@@ -235,20 +227,13 @@ nav.flex-container {
   padding-bottom: 0;
 }
 
-.benefits .container {
-  text-align: center;
-}
-
 .benefits-list.flex-container {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
   gap: 30px;
 }
 
 .benefits .benefits-item {
-  flex-grow: 1;
-  flex: 1 0 calc((100% - 90px) / 4);
-  text-align: left;
+  flex: 0 0 calc((100% - 90px) / 4);
 }
 
 .benefits-list .benefits-name {
@@ -259,7 +244,6 @@ nav.flex-container {
 
 .benefits .benefits-description {
   margin-top: 10px;
-  line-height: var(--main-line-height);
 }
 
 /* Що ми робимо */
@@ -272,16 +256,12 @@ nav.flex-container {
   text-align: center;
 }
 
-.doing .container {
-  text-align: center;
-}
-
 .doing .doing-list {
   margin-top: 50px;
 }
 
 .doing-list.flex-container {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -296,22 +276,18 @@ nav.flex-container {
   background-color: var(--secondary-bg-color);
 }
 
-.team .container {
-  text-align: center;
-}
-
 .team .team-list {
   margin-top: 50px;
 }
 
 .team-list.flex-container {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .team-card {
-  flex: 1 0 270px;
+  flex: 0 0 270px;
 
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -343,22 +319,17 @@ nav.flex-container {
 /* Роботи */
 
 .works .container {
-  text-align: center;
+  text-align: left;
 }
 
 .works .works-filters {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
 }
 
-.works .works-filter {
-  flex-grow: 1;
-}
-
 .works-button {
-  width: 100%;
   padding: 6px 22px;
 
   font-family: inherit;
@@ -366,11 +337,9 @@ nav.flex-container {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: var(--main-letter-spacing);
-  text-align: center;
 
   color: var(--title-font-color);
   background-color: var(--secondary-bg-color);
-  border-color: transparent;
 
   cursor: pointer;
 }
@@ -390,15 +359,9 @@ nav.flex-container {
 .works .works-list {
   margin-top: 50px;
 
-  text-align: left;
-
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
-
-.works .works-item {
-  flex-grow: 1;
 }
 
 .works .works-description {
@@ -453,8 +416,6 @@ nav.flex-container {
 .address-geo,
 .address-contact {
   display: inline-block;
-
-  line-height: var(--main-line-height);
 
   color: var(--contacts-font-color);
 }
