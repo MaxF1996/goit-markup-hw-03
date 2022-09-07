@@ -364,6 +364,10 @@ nav.flex-container {
   gap: 30px;
 }
 
+.works .works-item {
+  flex: 0 0 370px;
+}
+
 .works .works-description {
   padding: 20px 23px 19px;
 
